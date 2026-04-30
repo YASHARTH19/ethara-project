@@ -21,19 +21,20 @@ A full-stack web application for managing team projects and tasks with role-base
 
 ## Tech Stack
 
-| Layer    | Technology                        |
-|----------|------------------------------------|
-| Frontend | React (Vite), Vanilla CSS          |
-| Backend  | Node.js, Express.js                |
-| Database | MongoDB (Mongoose ODM)             |
-| Auth     | JWT + bcryptjs                     |
-| Deploy   | Railway                            |
+| Layer    | Technology                |
+| -------- | ------------------------- |
+| Frontend | React (Vite), Vanilla CSS |
+| Backend  | Node.js, Express.js       |
+| Database | MongoDB (Mongoose ODM)    |
+| Auth     | JWT + bcryptjs            |
+| Deploy   | Railway                   |
 
 ---
 
 ## Local Development
 
 ### Prerequisites
+
 - Node.js v18+
 - MongoDB Atlas URI (or local MongoDB)
 
@@ -78,36 +79,40 @@ NODE_ENV=development
 ## API Endpoints
 
 ### Auth
-| Method | Endpoint              | Role   | Description        |
-|--------|-----------------------|--------|--------------------|
-| POST   | /api/auth/register    | Public | Register user      |
-| POST   | /api/auth/login       | Public | Login user         |
-| GET    | /api/auth/members     | Auth   | Get all members    |
+
+| Method | Endpoint           | Role   | Description     |
+| ------ | ------------------ | ------ | --------------- |
+| POST   | /api/auth/register | Public | Register user   |
+| POST   | /api/auth/login    | Public | Login user      |
+| GET    | /api/auth/members  | Auth   | Get all members |
 
 ### Projects
-| Method | Endpoint             | Role      | Description        |
-|--------|----------------------|-----------|--------------------|
-| GET    | /api/projects        | Auth      | Get all projects   |
-| POST   | /api/projects        | Team Lead | Create project     |
-| PUT    | /api/projects/:id    | Team Lead | Update project     |
-| DELETE | /api/projects/:id    | Team Lead | Delete project     |
+
+| Method | Endpoint          | Role      | Description      |
+| ------ | ----------------- | --------- | ---------------- |
+| GET    | /api/projects     | Auth      | Get all projects |
+| POST   | /api/projects     | Team Lead | Create project   |
+| PUT    | /api/projects/:id | Team Lead | Update project   |
+| DELETE | /api/projects/:id | Team Lead | Delete project   |
 
 ### Tasks
-| Method | Endpoint             | Role      | Description           |
-|--------|----------------------|-----------|-----------------------|
-| GET    | /api/tasks           | Auth      | Get tasks             |
-| POST   | /api/tasks           | Team Lead | Create task           |
-| PUT    | /api/tasks/:id       | Auth      | Update task/status    |
-| DELETE | /api/tasks/:id       | Team Lead | Delete task + history |
-| GET    | /api/tasks/history   | Team Lead | View deletion history |
-| GET    | /api/tasks/stats     | Auth      | Dashboard stats       |
+
+| Method | Endpoint           | Role      | Description           |
+| ------ | ------------------ | --------- | --------------------- |
+| GET    | /api/tasks         | Auth      | Get tasks             |
+| POST   | /api/tasks         | Team Lead | Create task           |
+| PUT    | /api/tasks/:id     | Auth      | Update task/status    |
+| DELETE | /api/tasks/:id     | Team Lead | Delete task + history |
+| GET    | /api/tasks/history | Team Lead | View deletion history |
+| GET    | /api/tasks/stats   | Auth      | Dashboard stats       |
 
 ### Notifications
-| Method | Endpoint                        | Role      | Description           |
-|--------|---------------------------------|-----------|-----------------------|
-| GET    | /api/notifications              | Team Lead | Get notifications     |
-| PUT    | /api/notifications/:id/read     | Team Lead | Mark one as read      |
-| PUT    | /api/notifications/read-all     | Team Lead | Mark all as read      |
+
+| Method | Endpoint                    | Role      | Description       |
+| ------ | --------------------------- | --------- | ----------------- |
+| GET    | /api/notifications          | Team Lead | Get notifications |
+| PUT    | /api/notifications/:id/read | Team Lead | Mark one as read  |
+| PUT    | /api/notifications/read-all | Team Lead | Mark all as read  |
 
 ---
 
