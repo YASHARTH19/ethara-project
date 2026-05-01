@@ -10,11 +10,17 @@ A full-stack web application for managing team projects and tasks with role-base
 ## Features
 
 - 🔐 **Role-Based Auth** — JWT-based Signup/Login with Team Lead and Member roles
+  <img width="481" height="717" alt="Screenshot 2026-05-01 at 11 10 17 PM" src="https://github.com/user-attachments/assets/8c3e71f2-6016-4426-a054-2d946e5f2879" />
+  
 - 📁 **Project Management** — Leads can create, edit, and delete projects
 - ✅ **Task Management** — Create, assign, update, and delete tasks with status tracking
 - 🗑️ **Deletion History** — All deleted tasks are logged for Team Lead audit
 - 🔔 **Notifications** — Team Lead is notified with a task count summary when a member completes a task
+  <img width="1440" height="900" alt="Screenshot 2026-05-01 at 11 08 31 PM" src="https://github.com/user-attachments/assets/3b980b40-08d5-4973-87a9-f3c97e2bbead" />
+
 - 📊 **Dashboard** — Stats overview: total, pending, in-progress, completed, and overdue tasks
+  <img width="1440" height="900" alt="Screenshot 2026-05-01 at 11 08 08 PM" src="https://github.com/user-attachments/assets/efe6d3e7-fc24-48fd-a030-ebf382173c83" />
+
 - 👥 **Role Views** — Team Leads see all; Members only see their assigned tasks
 
 ---
