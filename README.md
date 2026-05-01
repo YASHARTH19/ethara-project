@@ -2,7 +2,7 @@
 
 A full-stack web application for managing team projects and tasks with role-based access control (Team Lead / Member).
 
-**Live URL**: [_Add after Railway deployment_ ](https://team-task-manager-production-9c55.up.railway.app/) 
+**Live URL**: [_Add after Railway deployment_ ](https://team-task-manager-production-9c55.up.railway.app/) <br>
 **GitHub Repo**: [_Add your repo URL here_](https://github.com/singhharsh77/Team-Task-Manager-Full-Stack-)
 
 ---
