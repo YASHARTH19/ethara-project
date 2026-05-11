@@ -3,7 +3,7 @@
 A full-stack web application for managing team projects and tasks with role-based access control (Team Lead / Member).
 
 **Live URL**: [https://team-task-manager-production-9c55.up.railway.app/](https://team-task-manager-production-9c55.up.railway.app/) <br>
-**GitHub Repo**: [https://github.com/singhharsh77/Team-Task-Manager-Full-Stack-](https://github.com/singhharsh77/Team-Task-Manager-Full-Stack-)
+**GitHub Repo**: [https://github.com/singhharsh77/Team-Task-Manager-Full-Stack-]([https://github.com/singhharsh77/Team-Task-Manager-Full-Stack-](https://github.com/YASHARTH19/ethara-project))
 
 ---
 
